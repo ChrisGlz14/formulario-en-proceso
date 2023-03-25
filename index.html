@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="title">Formulario de prueba</h1>
+    <h3 id="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae blanditiis quaerat ab consectetur accusantium aut culpa unde ratione rerum tempora. A, perspiciatis natus. Porro illo quo omnis temporibus ad modi?</h3>
+    <form id="formulary">
+       
+       
+        <p>Nombre</p>
+            <input class="data" type="text" required placeholder="Ingrese Nombre" required>
+        <p>Email</p>
+            <input class="data" type="email" required placeholder="Ingrese Email" required>
+        <p>Edad</p>
+              <input class="data" type="number" placeholder="Ingrese Numero" min="17" max="100" required>
+        <p>Telefono</p>
+              <input class="data" type="number" placeholder="Ingrese Telefono o Celular" required>
+       
+       <p>Que tipo de contrato busca?</p>
+        <select name="" id="dropdown">
+            <option value="private job">Private job</option>
+            <option value="private job">Enterprise</option>
+            <option value="private job">Contract</option>
+        </select>
+        
+        <div class="checkboxes">
+            <p>Sexo</p>
+            <label><input type="radio" name="genero" value="hombre">Hombre</label>
+            <label><input type="radio" name="genero" value="mujer">Mujer</label> 
+        </div>
+        <p>Experiencia Laboral</p>
+        
+        <div class="checkboxes">
+        <label><input type="checkbox" name="opciones" value="opcion1">Poca o Nula</label>
+        <label><input type="checkbox" name="opciones" value="opcion2">Moderada</label>
+        <label><input type="checkbox" name="opciones" value="opcion3">Mucha</label>
+        </div>
+        
+        <p>Agregue algun comentario adicional</p>
+
+
+        <textarea id="text"></textarea>
+
+
+        <input id="submit" type="submit"
+    </form>
+
+<script src="main.js"></script>
+</body>
+</html>
