@@ -57,7 +57,7 @@ h3 {
     outline: none;
 }
 
-@media  screen and (min-width:300px){
+@media  screen and (max-width:600px){
   #fomulary {
     width: 80%;
   }
@@ -86,7 +86,7 @@ input[type="checkbox"] {
     align-items: flex-start;
   }
   
-  @media screen and (min-width:300px) {
+  @media screen and (max-width:600px) {
     input {
       justify-content: center;
       align-items: center;
@@ -116,7 +116,7 @@ label {
     align-self: center;
 }
 
-@media screen and (min-width: 300px) {
+@media screen and (max-width: 300px) {
     .data {
       width: 300px;
     }  
