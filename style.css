@@ -63,8 +63,10 @@ h3 {
 }
 @media screen and (max-width: 600px) {
   .titulos {
-    width: 100%;
+    width: 80%;
     margin: 0 auto;
+    margin-top: 40px;
+    padding-bottom: 220px;
   }
 }
 
@@ -89,8 +91,9 @@ h3 {
 
 @media screen and (max-width: 600px) {
   #formulary {
-    width: 100%;
+    width: 80%;
     margin: 0 auto;
+    margin-bottom: 40px;
   }
 }
 
@@ -131,6 +134,14 @@ p {
   display: grid;
   grid-template-columns: 300px 1fr;
   vertical-align: top;
+}
+@media screen and (max-width: 600px) {
+  .lenguajes {
+    justify-content: center;
+    align-items: center;
+    display: block;
+
+  }
 }
 
 .data {
